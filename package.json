@@ -1,0 +1,9 @@
+{
+  "name": "devops-ci",
+  "version": "1.0.0",
+  "description": "Einfache Node.js-Anwendung für eine CI-Aufgabe",
+  "scripts": {
+    "test": "node test.js",
+    "build": "mkdir -p build && cp index.js build/index.js"
+  }
+}
